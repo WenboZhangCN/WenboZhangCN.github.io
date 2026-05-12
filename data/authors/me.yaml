@@ -1,0 +1,73 @@
+schema: "hugoblox/author/v1"
+slug: "me"
+is_owner: true
+name:
+  display: "Wenbo Zhang"
+  given: "Wenbo"
+  family: "Zhang"
+  alternate: ""
+  pronunciation: ""
+  pronouns: ""
+postnominals: []
+status:
+  icon: ""
+role: "PhD Student, South China University of Technology; Visiting Student, University College London"
+bio: "I build wearable sensing systems for understanding human movement beyond surface motion. My research focuses on wearable sensing, ubiquitous computing, and human movement understanding. I design multimodal systems that infer motion, pressure, kinetics, muscle activation, and hidden activation-loading organization from sparse wearable signals.\n"
+affiliations:
+  - name: "South China University of Technology"
+    url: "https://www.scut.edu.cn/en/"
+  - name: "University College London"
+    url: "https://www.ucl.ac.uk/"
+links:
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works"
+    label: "Google Scholar"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0002-0387-6345"
+    label: "ORCID"
+interests:
+  - "Wearable Sensing"
+  - "Human Movement Understanding"
+  - "Ubiquitous Computing"
+  - "Human-Computer Interaction"
+  - "Multimodal Learning"
+education:
+  - degree: "PhD Student"
+    institution: "South China University of Technology"
+    start: ""
+    end: ""
+    summary: "Researching wearable sensing, ubiquitous computing, and multimodal human movement understanding.\n"
+experience:
+  - role: "Visiting Student"
+    org: "University College London"
+    start: "2026-03-01"
+    summary: "Visiting research on wearable intelligence for human movement analysis.\n"
+  - role: "PhD Student"
+    org: "South China University of Technology"
+    start: ""
+    summary: "Developing wearable sensing systems for motion, pressure, kinetics, and muscle activation inference.\n"
+skills:
+  - name: "Technical Skills"
+    items:
+      - label: "Python"
+        level: 5
+      - label: "Deep Learning"
+        level: 5
+      - label: "Wearable Prototyping"
+        level: 4
+  - name: "Research & Communication"
+    items:
+      - label: "UbiComp Research"
+        level: 5
+      - label: "Academic Writing"
+        level: 4
+      - label: "System Evaluation"
+        level: 4
+languages:
+  - name: "English"
+    level: 4
+    label: "Professional"
+  - name: "Chinese"
+    level: 5
+    label: "Native"
+awards: []
