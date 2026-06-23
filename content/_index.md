@@ -14,7 +14,7 @@ sections:
       text: |-
         I build multimodal wearable sensing systems that infer hidden physical and physiological states during human movement, including muscle effort, biomechanical loading, and physical interaction. My work connects sparse body-worn sensors, multimodal time-series learning, mobile deployment, and real-time feedback for mobile health, fitness, rehabilitation, and ubiquitous computing.
 
-        My research trajectory moves from observable body motion and contact pressure to hidden muscle activation and activation-loading organization, with the long-term goal of developing closed-loop wearable intelligence that helps users understand and regulate their physical states in everyday settings.
+        My research trajectory moves from observable body motion and contact pressure to hidden muscle activation and biomechanical loading, with the long-term goal of developing closed-loop wearable intelligence that helps users understand and regulate their physical states in everyday settings.
 
         **Current Focus**  
         Closed-loop wearable intelligence for hidden muscle-state inference and real-time feedback.
@@ -43,11 +43,11 @@ sections:
       title: 'Research Overview'
       subtitle: ''
       text: |-
-        **Wearable sensing | Mobile health | Hidden-state inference | Closed-loop feedback**
+        **Wearable Sensing · Mobile Health · Hidden-State Inference · Closed-Loop Feedback**
 
-        My research follows a core trajectory: from observable body motion, to contact pressure and movement kinetics, to hidden muscle activation and biomechanical loading, and ultimately to closed-loop wearable intelligence that supports real-time user feedback.
+        My research follows a core trajectory: from observable body motion and contact pressure, to hidden muscle activation and biomechanical loading, and ultimately to closed-loop wearable intelligence that supports real-time user feedback.
 
-        I am especially interested in robust and interpretable multimodal sensing, on-device sensor learning, and mobile systems that can work outside motion labs for health, fitness, sport, and rehabilitation.
+        I am especially interested in robust and interpretable multimodal sensing, on-device sensor learning, and mobile systems that translate hidden physical states into actionable feedback for health, fitness, sport, and rehabilitation.
     design:
       columns: '1'
   - block: markdown
@@ -58,15 +58,15 @@ sections:
       text: |-
         1. **[KineticsSense](/publications/kineticssense/)**  
            **Wenbo Zhang**, Chenxu Zhang, Yang Gao, Zhanpeng Jin. ACM IMWUT 2025.  
-           Multimodal wearable sensing for lower-limb motion kinetics and muscle activation from IMU and plantar pressure.
+           Multimodal wearable sensing for estimating lower-limb muscle activation and movement kinetics from IMU and plantar pressure.
 
         2. **[MuscleSense](/publications/musclesense/)**  
            **Wenbo Zhang** et al. Under review, ACM IMWUT 2026.  
-           Real-time auditory biofeedback for eyes-free muscle-effort regulation during lower-limb exercise.
+           Real-time auditory biofeedback using sparse thigh-worn IMU and sEMG to support eyes-free muscle-effort regulation during lower-limb exercise.
 
         3. **[HALO](/publications/halo/)**  
            **Wenbo Zhang** et al. Under review, ACM IMWUT 2026.  
-           Inferring hidden activation-loading organization from sparse wearable signals.
+           Modeling hidden activation-loading relationships from sparse wearable signals for interpretable biomechanical state inference.
 
         4. **[PPGSpeech](/publications/ppgspeech/)**  
            Lingde Hu*, **Wenbo Zhang***, Wenkang Zhang, Yu He, Seokmin Choi, Yang Gao, Jagmohan Chauhan, Zhanpeng Jin. IEEE Internet of Things Journal, 2026.  
@@ -95,13 +95,16 @@ sections:
     content:
       title: News
       text: |-
-        - Jun 2026 - Will present MuscleSense at MobiUK 2026, Cambridge, in the Wearables, Clinical Monitoring, and Sensing Infrastructure session.
-        - May 2026 - Submitted HALO to UbiComp / IMWUT.
+        - Jun 2026 - MuscleSense accepted for oral presentation at MobiUK 2026, University of Cambridge.
+        - May 2026 - Submitted HALO to ACM UbiComp / IMWUT.
         - Mar 2026 - Started visiting research at University College London.
         - 2026 - PPGSpeech published in IEEE Internet of Things Journal.
-        - 2025 - KineticsSense and Motion2Press accepted by IMWUT.
+        - Oct 2025 - Invited as a panelist at ACM UbiComp/ISWC 2025 to discuss impact, risks, and security/privacy in ubiquitous computing research.
+        - Oct 2025 - Served as a Student Volunteer at ACM UbiComp/ISWC 2025.
+        - 2025 - KineticsSense and Motion2Press accepted by ACM IMWUT.
+        - Jun 2025 - Mentored the first-year undergraduate project "HuiWoZhiLi (慧握知力)," which received Second Prize in the Introduction to Engineering course design competition.
         - 2025 - Received the China Scholarship Council Joint Ph.D. Scholarship.
-        - 2024 - PressInPose accepted by IMWUT.
+        - 2024 - PressInPose accepted by ACM IMWUT.
     design:
       columns: '1'
   - block: markdown

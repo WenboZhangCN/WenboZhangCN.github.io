@@ -4,8 +4,8 @@ date: 2026-05-10
 summary: "A coherent route from observable movement to hidden physical and physiological states."
 tags:
   - Wearable Sensing
-  - Human Movement
-  - Multimodal Learning
+  - Hidden-State Understanding
+  - Mobile Health
 links:
   - type: site
     url: /#papers

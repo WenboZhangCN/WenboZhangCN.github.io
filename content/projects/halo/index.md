@@ -1,11 +1,11 @@
 ---
 title: "HALO"
-date: 2026-05-10
-summary: "Inferring hidden activation-loading organization behind observable movement."
+date: 2026-05-11
+summary: "Modeling hidden activation-loading relationships behind observable movement from sparse wearable signals."
 tags:
+  - Hidden-State Inference
   - Wearable Sensing
-  - Multimodal Learning
-  - Human Movement Analysis
+  - Biomechanics
 links: []
 ---
 
