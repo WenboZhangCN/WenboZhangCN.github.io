@@ -12,9 +12,15 @@ sections:
     content:
       username: me
       text: |-
-        I build multimodal wearable sensing systems that infer hidden physical and physiological states during human movement, including muscle effort, biomechanical loading, and physical interaction. My work integrates sparse body-worn sensors, multimodal time-series learning, mobile deployment, and real-time feedback for mobile health, fitness, rehabilitation, and ubiquitous computing applications.
+        I build multimodal wearable sensing systems that infer hidden physical and physiological states during human movement, including muscle effort, biomechanical loading, and physical interaction. My work connects sparse body-worn sensors, multimodal time-series learning, mobile deployment, and real-time feedback for mobile health, fitness, rehabilitation, and ubiquitous computing.
 
-        My research trajectory moves from observable body motion and contact pressure to hidden muscle activation and activation-loading organization, with the long-term goal of developing closed-loop wearable intelligence that can help users understand and regulate their physical states in everyday settings.
+        My research trajectory moves from observable body motion and contact pressure to hidden muscle activation and activation-loading organization, with the long-term goal of developing closed-loop wearable intelligence that helps users understand and regulate their physical states in everyday settings.
+
+        **Current Focus**  
+        Closed-loop wearable intelligence for hidden muscle-state inference and real-time feedback.
+
+        **Featured at MobiUK 2026**  
+        **MuscleSense:** Real-Time Auditory Biofeedback for Lower-Limb Exercise with Sparse Wearables.
       headings:
         about: ''
         education: ''

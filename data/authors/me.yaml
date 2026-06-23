@@ -11,7 +11,7 @@ name:
 postnominals: []
 status:
   icon: ""
-role: "Ph.D. Candidate, South China University of Technology; Visiting Ph.D. Researcher, University College London"
+role: "Ph.D. Candidate, SCUT; Visiting Ph.D. Researcher, UCL"
 bio: "I build multimodal wearable sensing systems that infer hidden physical and physiological states during human movement, including muscle effort, biomechanical loading, and physical interaction. My work connects sparse body-worn sensors, multimodal time-series learning, mobile deployment, and real-time feedback for mobile health, fitness, and rehabilitation.\n"
 affiliations:
   - name: "South China University of Technology"
@@ -31,23 +31,23 @@ links:
 interests:
   - "Wearable Sensing"
   - "Mobile Health"
+  - "On-device Intelligence"
   - "Multimodal Learning"
   - "Human Movement Understanding"
-  - "On-device Intelligence"
   - "Closed-loop Feedback"
 education:
-  - degree: "Ph.D. Candidate in Information and Communication Engineering"
+  - degree: "Ph.D. Candidate"
     institution: "South China University of Technology"
     start: "2023-09-01"
     end: "2027-06-30"
     year: "Sep 2023 - Expected Jun 2027"
-    summary: "Researching wearable sensing, mobile intelligence, and multimodal human movement understanding.\n"
-  - degree: "Joint M.S. Research Program in Computer Science"
+    summary: "Information and Communication Engineering. Researching wearable sensing, mobile intelligence, and multimodal human movement understanding.\n"
+  - degree: "Joint M.S. Research Program"
     institution: "Institute of Computing Technology, Chinese Academy of Sciences"
     start: "2021-05-01"
     end: "2023-06-30"
     year: "May 2021 - Jun 2023"
-    summary: "Joint graduate research program in computer science.\n"
+    summary: "Computer Science. Joint graduate research program.\n"
   - degree: "M.S. in Computer Science"
     institution: "Hebei University"
     start: "2020-09-01"
