@@ -9,4 +9,4 @@ tags:
 links: []
 ---
 
-HALO studies hidden activation-loading organization: how motion, pressure, and muscle activation interact beneath observable movement. The goal is to infer these latent structures from practical wearable signals.
+HALO studies hidden activation-loading organization: how motion, pressure, and muscle activation interact beneath observable movement. The goal is to infer these latent structures from practical sparse wearable signals and make biomechanical organization more accessible outside the lab.

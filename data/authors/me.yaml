@@ -11,14 +11,17 @@ name:
 postnominals: []
 status:
   icon: ""
-role: "PhD Student, South China University of Technology; Visiting Student, University College London"
-bio: "I build wearable sensing systems for understanding human movement beyond surface motion. My research focuses on wearable sensing, ubiquitous computing, and human movement understanding. I design multimodal systems that infer motion, pressure, kinetics, muscle activation, and hidden activation-loading organization from sparse wearable signals.\n"
+role: "Ph.D. Candidate, South China University of Technology; Visiting Ph.D. Researcher, University College London"
+bio: "I develop mobile and wearable sensing systems that integrate IMU, surface EMG, plantar pressure, and PPG to infer human motion, muscle effort, and physical interaction in real-world settings. My research focuses on robust, interpretable, and on-device multimodal learning for health, fitness, sport, and ubiquitous computing applications.\n"
 affiliations:
   - name: "South China University of Technology"
     url: "https://www.scut.edu.cn/en/"
   - name: "University College London"
     url: "https://www.ucl.ac.uk/"
 links:
+  - icon: "envelope"
+    url: "mailto:ucacwzh@ucl.ac.uk"
+    label: "Email"
   - icon: "academicons/google-scholar"
     url: "https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works"
     label: "Google Scholar"
@@ -31,37 +34,63 @@ interests:
   - "Ubiquitous Computing"
   - "Human-Computer Interaction"
   - "Multimodal Learning"
+  - "Mobile Health Systems"
+  - "On-device Learning"
 education:
-  - degree: "PhD Student"
+  - degree: "Ph.D. Candidate in Information and Communication Engineering"
     institution: "South China University of Technology"
-    start: ""
-    end: ""
-    summary: "Researching wearable sensing, ubiquitous computing, and multimodal human movement understanding.\n"
+    start: "2023-09-01"
+    end: "2027-06-30"
+    summary: "Researching wearable sensing, mobile intelligence, and multimodal human movement understanding.\n"
+  - degree: "Joint M.S. Research Program in Computer Science"
+    institution: "Institute of Computing Technology, Chinese Academy of Sciences"
+    start: "2021-05-01"
+    end: "2023-06-30"
+    summary: "Joint graduate research program in computer science.\n"
+  - degree: "M.S. in Computer Science"
+    institution: "Hebei University"
+    start: "2020-09-01"
+    end: "2023-06-30"
+    summary: "Graduate study in computer science.\n"
+  - degree: "B.S. in Internet of Things Engineering"
+    institution: "Hebei University of Science and Technology"
+    start: "2016-09-01"
+    end: "2020-06-30"
+    summary: "Undergraduate study in Internet of Things engineering.\n"
 experience:
-  - role: "Visiting Student"
+  - role: "Visiting Ph.D. Researcher"
     org: "University College London"
     start: "2026-03-01"
-    summary: "Visiting research on wearable intelligence for human movement analysis.\n"
-  - role: "PhD Student"
+    summary: "Investigating multimodal wearable sensing and machine learning for human motion and muscle effort, with real-time feedback for health and exercise applications. Supervisor: Prof. Jagmohan Chauhan.\n"
+  - role: "Ph.D. Researcher"
     org: "South China University of Technology"
-    start: ""
-    summary: "Developing wearable sensing systems for motion, pressure, kinetics, and muscle activation inference.\n"
+    start: "2023-09-01"
+    summary: "Developing wearable sensing systems integrating IMU, surface EMG, plantar pressure, and PPG, spanning human-subject data collection, sensor synchronization, multimodal modeling, mobile deployment, and system evaluation. Supervisor: Prof. Zhanpeng Jin.\n"
+  - role: "Teaching Assistant, Introduction to Engineering"
+    org: "South China University of Technology"
+    start: "2024-09-01"
+    end: "2026-06-30"
+    summary: "Supported project-based teaching and mentored first-year undergraduate teams in engineering design; two mentored cohorts received Second Prize in the annual course design competition.\n"
 skills:
   - name: "Technical Skills"
     items:
       - label: "Python"
         level: 5
-      - label: "Deep Learning"
+      - label: "Multimodal Learning"
         level: 5
-      - label: "Wearable Prototyping"
+      - label: "Wearable Sensing"
+        level: 4
+      - label: "Mobile and On-device Deployment"
         level: 4
   - name: "Research & Communication"
     items:
-      - label: "UbiComp Research"
+      - label: "Human-subject Studies"
         level: 5
       - label: "Academic Writing"
         level: 4
       - label: "System Evaluation"
+        level: 4
+      - label: "Mentoring"
         level: 4
 languages:
   - name: "English"
@@ -70,4 +99,20 @@ languages:
   - name: "Chinese"
     level: 5
     label: "Native"
-awards: []
+awards:
+  - title: "China Scholarship Council Joint Ph.D. Scholarship"
+    date: "2025-01-01"
+    awarder: "China Scholarship Council"
+    summary: ""
+  - title: "Silver Medal, Huawei Ascend AI Innovation Competition"
+    date: "2023-01-01"
+    awarder: "Huawei"
+    summary: ""
+  - title: "Research Excellence Award for Graduate Students"
+    date: "2023-01-01"
+    awarder: ""
+    summary: ""
+  - title: "Outstanding Graduate"
+    date: "2023-01-01"
+    awarder: ""
+    summary: ""

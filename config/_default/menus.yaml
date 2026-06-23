@@ -13,9 +13,12 @@ main:
   - name: Projects
     url: /#projects
     weight: 13
+  - name: CV
+    url: /experience/
+    weight: 14
   - name: News
     url: /#news
-    weight: 14
+    weight: 15
   - name: Contact
     url: /#contact
-    weight: 15
+    weight: 16

@@ -3,8 +3,8 @@ hugoblox:
   identity:
     name: Wenbo Zhang
     type: person
-    tagline: "Wearable Intelligence for Human Movement Understanding"
-    description: "Personal academic homepage of Wenbo Zhang, a PhD student working on wearable sensing, ubiquitous computing, and human movement understanding."
+    tagline: "Mobile and Wearable Intelligence for Human Movement Understanding"
+    description: "Personal academic homepage of Wenbo Zhang, a Ph.D. candidate working on mobile and wearable sensing, multimodal sensor learning, mobile health systems, and human movement understanding."
   theme:
     mode: system
     pack: default
@@ -30,7 +30,7 @@ hugoblox:
     style: minimal
     language_switcher: true
   copyright:
-    notice: © {year} {name}
+    notice: "Copyright {year} {name}"
   content:
     math:
       enable: true
