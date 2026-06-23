@@ -10,7 +10,7 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      username: me
+      username: home
       text: |-
         I build multimodal wearable sensing systems that infer hidden physical and physiological states during human movement, including muscle effort, biomechanical loading, and physical interaction. My work connects sparse body-worn sensors, multimodal time-series learning, mobile deployment, and real-time feedback for mobile health, fitness, rehabilitation, and ubiquitous computing.
 
@@ -43,7 +43,7 @@ sections:
       title: 'Research Overview'
       subtitle: ''
       text: |-
-        **Wearable Sensing · Mobile Health · Hidden-State Inference · Closed-Loop Feedback**
+        **Wearable Sensing &middot; Mobile Health &middot; Hidden-State Inference &middot; Closed-Loop Feedback**
 
         My research follows a core trajectory: from observable body motion and contact pressure, to hidden muscle activation and biomechanical loading, and ultimately to closed-loop wearable intelligence that supports real-time user feedback.
 
@@ -95,6 +95,7 @@ sections:
     content:
       title: News
       text: |-
+        - Jul 2026 - Invited by Prof. Nadia Berthouze to give a research talk at UCLIC, University College London, on closed-loop wearable intelligence for human movement and muscle-state understanding.
         - Jun 2026 - MuscleSense accepted for oral presentation at MobiUK 2026, University of Cambridge.
         - May 2026 - Submitted HALO to ACM UbiComp / IMWUT.
         - Mar 2026 - Started visiting research at University College London.
@@ -105,6 +106,17 @@ sections:
         - Jun 2025 - Mentored the first-year undergraduate project "HuiWoZhiLi (慧握知力)," which received Second Prize in the Introduction to Engineering course design competition.
         - 2025 - Received the China Scholarship Council Joint Ph.D. Scholarship.
         - 2024 - PressInPose accepted by ACM IMWUT.
+    design:
+      columns: '1'
+  - block: markdown
+    id: education
+    content:
+      title: Education
+      text: |-
+        - **Ph.D. Candidate**, South China University of Technology, 2023 - Expected 2027
+        - **Visiting Ph.D. Researcher**, University College London, 2026
+        - **M.S. Research Program**, Institute of Computing Technology, Chinese Academy of Sciences, 2021 - 2023
+        - **B.S.**, Hebei University of Science and Technology, 2016 - 2020
     design:
       columns: '1'
   - block: markdown

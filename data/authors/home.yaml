@@ -1,0 +1,34 @@
+schema: "hugoblox/author/v1"
+slug: "home"
+is_owner: false
+name:
+  display: "Wenbo Zhang"
+  given: "Wenbo"
+  family: "Zhang"
+postnominals: []
+status:
+  icon: ""
+role: "Ph.D. Candidate, SCUT; Visiting Ph.D. Researcher, UCL"
+bio: "I build multimodal wearable sensing systems that infer hidden physical and physiological states during human movement, including muscle effort, biomechanical loading, and physical interaction. My work connects sparse body-worn sensors, multimodal time-series learning, mobile deployment, and real-time feedback for mobile health, fitness, and rehabilitation.\n"
+affiliations:
+  - name: "Mobile & Wearable Intelligence"
+    url: ""
+  - name: "Human Movement / Mobile Health / Closed-loop Feedback"
+    url: ""
+links:
+  - icon: "envelope"
+    url: "mailto:ucacwzh@ucl.ac.uk"
+    label: "Email"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works"
+    label: "Google Scholar"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0002-0387-6345"
+    label: "ORCID"
+interests:
+  - "Wearable Sensing"
+  - "Mobile Health"
+  - "On-device Intelligence"
+  - "Multimodal Learning"
+  - "Human Movement Understanding"
+  - "Closed-loop Feedback"
