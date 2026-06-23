@@ -18,7 +18,7 @@ publication_types: ["article-journal"]
 publication: "In *IEEE Internet of Things Journal*, 13(4), pp. 6692-6703"
 publication_short: "IEEE IoT-J 2026"
 abstract: "PPGSpeech explores a wearable silent speech interface that leverages neck-worn photoplethysmography signals for unobtrusive speech interaction."
-summary: "A neck-worn PPG-based silent speech interface for wearable and ubiquitous interaction; equal contribution by Lingde Hu and Wenbo Zhang."
+summary: "A neck-worn PPG-based silent speech interface that explores subtle physiological sensing for hands-free interaction; equal contribution by Lingde Hu and Wenbo Zhang."
 tags:
   - Wearable Sensing
   - Silent Speech Interface

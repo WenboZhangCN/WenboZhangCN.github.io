@@ -8,7 +8,7 @@ name:
 postnominals: []
 status:
   icon: ""
-role: "Ph.D. Candidate, SCUT; Visiting Ph.D. Researcher, UCL"
+role: "Ph.D. Candidate, SCUT<br>Visiting Ph.D. Researcher, UCL"
 bio: "I build multimodal wearable sensing systems that infer hidden physical and physiological states during human movement, including muscle effort, biomechanical loading, and physical interaction. My work connects sparse body-worn sensors, multimodal time-series learning, mobile deployment, and real-time feedback for mobile health, fitness, and rehabilitation.\n"
 affiliations:
   - name: "Mobile & Wearable Intelligence"

@@ -4,7 +4,7 @@ date: 2023-10-24
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '4rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
@@ -14,7 +14,7 @@ sections:
     content:
       title: Academic CV
       text: |-
-        Download the latest version: [Wenbo Zhang Academic CV](/uploads/resume.pdf).
+        Research experience, selected skills, service, awards, and education are summarized below. Download the latest PDF version: [Wenbo Zhang Academic CV](/uploads/resume.pdf).
     design:
       columns: '1'
   - block: resume-experience

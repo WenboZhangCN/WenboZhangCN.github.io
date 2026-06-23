@@ -1,7 +1,7 @@
 ---
 title: "Wearable Movement Understanding"
 date: 2026-05-10
-summary: "A coherent route from observable movement to hidden physical and physiological states."
+summary: "From observable motion to hidden physical states."
 tags:
   - Wearable Sensing
   - Hidden-State Understanding

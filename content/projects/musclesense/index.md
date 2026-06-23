@@ -1,7 +1,7 @@
 ---
 title: "MuscleSense"
 date: 2026-05-12
-summary: "Real-time auditory biofeedback for eyes-free muscle-effort regulation during lower-limb exercise."
+summary: "Eyes-free auditory feedback for lower-limb muscle-effort regulation."
 tags:
   - Closed-loop Feedback
   - Wearable Feedback

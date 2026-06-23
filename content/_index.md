@@ -5,7 +5,7 @@ date: 2026-05-10
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '4rem'
 
 sections:
   - block: resume-biography-3
@@ -70,7 +70,7 @@ sections:
 
         4. **[PPGSpeech](/publications/ppgspeech/)**  
            Lingde Hu*, **Wenbo Zhang***, Wenkang Zhang, Yu He, Seokmin Choi, Yang Gao, Jagmohan Chauhan, Zhanpeng Jin. IEEE Internet of Things Journal, 2026.  
-           A neck-worn PPG-based silent speech interface that extends wearable sensing toward subtle physiological interaction.
+           A neck-worn PPG-based silent speech interface that explores subtle physiological sensing for hands-free interaction.
 
         More publications are listed on the [publications page](/publications/).
     design:
@@ -95,7 +95,7 @@ sections:
     content:
       title: News
       text: |-
-        - Jul 2026 - Invited by Prof. Nadia Berthouze to give a research talk at UCLIC, University College London, on closed-loop wearable intelligence for human movement and muscle-state understanding.
+        - Jul 2026 - Invited research talk at UCLIC, University College London, hosted by Prof. Nadia Berthouze.
         - Jun 2026 - MuscleSense accepted for oral presentation at MobiUK 2026, University of Cambridge.
         - May 2026 - Submitted HALO to ACM UbiComp / IMWUT.
         - Mar 2026 - Started visiting research at University College London.
@@ -115,7 +115,7 @@ sections:
       text: |-
         - **Ph.D. Candidate**, South China University of Technology, 2023 - Expected 2027
         - **Visiting Ph.D. Researcher**, University College London, 2026
-        - **M.S. Research Program**, Institute of Computing Technology, Chinese Academy of Sciences, 2021 - 2023
+        - **Joint M.S. Research Program**, Institute of Computing Technology, Chinese Academy of Sciences, 2021 - 2023
         - **B.S.**, Hebei University of Science and Technology, 2016 - 2020
     design:
       columns: '1'
@@ -128,8 +128,7 @@ sections:
 
         **Email:** [ucacwzh@ucl.ac.uk](mailto:ucacwzh@ucl.ac.uk) / [ftzhangwenbo@mail.scut.edu.cn](mailto:ftzhangwenbo@mail.scut.edu.cn)  
         **ORCID:** [0000-0002-0387-6345](https://orcid.org/0000-0002-0387-6345)  
-        **Google Scholar:** [Wenbo Zhang](https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works)  
-        **CV:** [Download academic CV](/uploads/resume.pdf)
+        **Google Scholar:** [Wenbo Zhang](https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works)
     design:
       columns: '1'
 ---
