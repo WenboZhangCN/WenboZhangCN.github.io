@@ -16,12 +16,12 @@ publication_types: ["manuscript"]
 publication: "Revised manuscript under review at *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*"
 publication_short: "Under review, IMWUT 2026"
 abstract: "MuscleSense studies real-time wearable feedback for muscle effort awareness, making muscle activation audible for eyes-free in-the-loop regulation."
-summary: "Eyes-free real-time feedback for muscle effort regulation from wearable sensing."
+summary: "A real-time auditory biofeedback system for eyes-free muscle-effort regulation from sparse wearable sensing."
 tags:
   - Wearable Sensing
   - Muscle Effort
   - Real-time Feedback
-featured: false
+featured: true
 links: []
 image:
   caption: ""
@@ -32,4 +32,4 @@ projects:
 slides: ""
 ---
 
-MuscleSense explores how wearable physiological sensing can turn muscle effort into actionable, eyes-free feedback for movement awareness, training, and rehabilitation.
+MuscleSense explores how wearable physiological sensing can turn muscle effort into actionable, eyes-free feedback for movement awareness, training, and rehabilitation. It emphasizes feedback-oriented state inference, mobile deployment, and closed-loop user regulation during lower-limb exercise.

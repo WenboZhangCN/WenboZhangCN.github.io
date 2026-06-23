@@ -1,6 +1,6 @@
 ---
 title: ''
-summary: 'Mobile and Wearable Intelligence for Human Movement Understanding'
+summary: 'Wearable Intelligence for Human Movement, Muscle Effort, and Mobile Health'
 date: 2026-05-10
 type: landing
 
@@ -11,11 +11,17 @@ sections:
   - block: resume-biography-3
     content:
       username: me
-      text: 'Mobile and Wearable Intelligence for Human Movement Understanding'
+      text: |-
+        I build multimodal wearable sensing systems that infer hidden physical and physiological states during human movement, including muscle effort, biomechanical loading, and physical interaction. My work integrates sparse body-worn sensors, multimodal time-series learning, mobile deployment, and real-time feedback for mobile health, fitness, rehabilitation, and ubiquitous computing applications.
+
+        My research trajectory moves from observable body motion and contact pressure to hidden muscle activation and activation-loading organization, with the long-term goal of developing closed-loop wearable intelligence that can help users understand and regulate their physical states in everyday settings.
       headings:
         about: ''
         education: ''
         interests: ''
+      button:
+        text: Download CV
+        url: /uploads/resume.pdf
     design:
       background:
         gradient_mesh:
@@ -31,26 +37,38 @@ sections:
       title: 'Research Overview'
       subtitle: ''
       text: |-
-        **Sparse wearables | Multimodal sensing | Mobile health | Human movement analysis**
+        **Wearable sensing | Mobile health | Hidden-state inference | Closed-loop feedback**
 
-        My research develops wearable systems that integrate IMU, surface EMG, plantar pressure, and PPG to infer human motion, muscle effort, force, and physical interaction in real-world settings.
+        My research follows a core trajectory: from observable body motion, to contact pressure and movement kinetics, to hidden muscle activation and biomechanical loading, and ultimately to closed-loop wearable intelligence that supports real-time user feedback.
 
-        I am especially interested in robust, interpretable, and on-device multimodal learning, together with real-time feedback for health, fitness, sport, and ubiquitous computing applications.
-
-        The core research line is: **from body motion, to pressure and kinetics, to muscle activation, and further to hidden activation-loading organization.**
+        I am especially interested in robust and interpretable multimodal sensing, on-device sensor learning, and mobile systems that can work outside motion labs for health, fitness, sport, and rehabilitation.
     design:
       columns: '1'
-  - block: collection
+  - block: markdown
     id: papers
     content:
-      title: Selected Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
+      title: Featured Research
+      subtitle: ''
+      text: |-
+        1. **[KineticsSense](/publications/kineticssense/)**  
+           **Wenbo Zhang**, Chenxu Zhang, Yang Gao, Zhanpeng Jin. ACM IMWUT 2025.  
+           Multimodal wearable sensing for lower-limb motion kinetics and muscle activation from IMU and plantar pressure.
+
+        2. **[MuscleSense](/publications/musclesense/)**  
+           **Wenbo Zhang** et al. Under review, ACM IMWUT 2026.  
+           Real-time auditory biofeedback for eyes-free muscle-effort regulation during lower-limb exercise.
+
+        3. **[HALO](/publications/halo/)**  
+           **Wenbo Zhang** et al. Under review, ACM IMWUT 2026.  
+           Inferring hidden activation-loading organization from sparse wearable signals.
+
+        4. **[PPGSpeech](/publications/ppgspeech/)**  
+           Lingde Hu*, **Wenbo Zhang***, Wenkang Zhang, Yu He, Seokmin Choi, Yang Gao, Jagmohan Chauhan, Zhanpeng Jin. IEEE Internet of Things Journal, 2026.  
+           A neck-worn PPG-based silent speech interface that extends wearable sensing toward subtle physiological interaction.
+
+        More publications are listed on the [publications page](/publications/).
     design:
-      view: article-grid
-      columns: 2
+      columns: '1'
   - block: collection
     id: projects
     content:
@@ -71,6 +89,7 @@ sections:
     content:
       title: News
       text: |-
+        - Jun 2026 - Will present MuscleSense at MobiUK 2026, Cambridge, in the Wearables, Clinical Monitoring, and Sensing Infrastructure session.
         - May 2026 - Submitted HALO to UbiComp / IMWUT.
         - Mar 2026 - Started visiting research at University College London.
         - 2026 - PPGSpeech published in IEEE Internet of Things Journal.
@@ -84,7 +103,7 @@ sections:
     content:
       title: Contact
       text: |-
-        I am open to collaboration around wearable sensing, multimodal movement analysis, mobile health, ubiquitous computing, and human-centered health technologies.
+        I am open to collaborations on multimodal wearable sensing, mobile health systems, hidden-state inference, on-device sensor learning, and closed-loop feedback for movement, fitness, and rehabilitation.
 
         **Email:** [ucacwzh@ucl.ac.uk](mailto:ucacwzh@ucl.ac.uk) / [ftzhangwenbo@mail.scut.edu.cn](mailto:ftzhangwenbo@mail.scut.edu.cn)  
         **ORCID:** [0000-0002-0387-6345](https://orcid.org/0000-0002-0387-6345)  

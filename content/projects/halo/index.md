@@ -1,7 +1,7 @@
 ---
 title: "HALO"
 date: 2026-05-10
-summary: "Inferring hidden activation-loading organization from sparse wearables."
+summary: "Inferring hidden activation-loading organization behind observable movement."
 tags:
   - Wearable Sensing
   - Multimodal Learning
@@ -9,4 +9,6 @@ tags:
 links: []
 ---
 
-HALO studies hidden activation-loading organization: how motion, pressure, and muscle activation interact beneath observable movement. The goal is to infer these latent structures from practical sparse wearable signals and make biomechanical organization more accessible outside the lab.
+HALO studies hidden activation-loading organization: how motion, contact pressure, biomechanical loading, and muscle activation interact beneath observable movement.
+
+The project aims to infer these latent structures from practical sparse wearable signals, making biomechanical organization more accessible outside the lab and easier to connect with feedback-driven mobile health applications.
