@@ -9,7 +9,7 @@ date: "2025-09-03T00:00:00Z"
 publishDate: "2025-09-03T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "In *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*, 9(3), Article 151"
-publication_short: "IMWUT 2025"
+publication_short: "ACM IMWUT, 2025"
 abstract: "KineticsSense is a multimodal wearable framework that integrates inertial measurement units and plantar pressure data to estimate lower-limb electromyography signals, bridging kinematic motion analysis and biomechanical understanding."
 summary: "A core multimodal wearable framework for estimating lower-limb muscle activation and movement kinetics from IMU and plantar pressure signals."
 tags:

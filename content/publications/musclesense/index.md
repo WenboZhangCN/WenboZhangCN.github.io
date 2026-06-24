@@ -14,7 +14,7 @@ date: "2026-06-01T00:00:00Z"
 publishDate: "2026-06-01T00:00:00Z"
 publication_types: ["manuscript"]
 publication: "Revised manuscript under review at *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*"
-publication_short: "Under review, IMWUT 2026"
+publication_short: "Under review, ACM IMWUT, 2026"
 abstract: "MuscleSense studies real-time wearable feedback for muscle effort awareness, making muscle activation audible for eyes-free in-the-loop regulation."
 summary: "A real-time auditory biofeedback system for eyes-free muscle-effort regulation from sparse wearable sensing."
 tags:

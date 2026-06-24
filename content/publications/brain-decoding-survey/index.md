@@ -12,7 +12,7 @@ date: "2025-01-01T00:00:00Z"
 publishDate: "2025-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "In *ACM Computing Surveys*, in press"
-publication_short: "ACM Computing Surveys 2025"
+publication_short: "ACM Computing Surveys, 2025"
 abstract: "A survey on brain decoding for reconstruction of audio-visual perception."
 summary: "A survey of brain decoding methods for reconstructing audio-visual perception."
 tags:

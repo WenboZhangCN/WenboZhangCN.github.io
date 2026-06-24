@@ -14,7 +14,7 @@ date: "2024-11-21T00:00:00Z"
 publishDate: "2024-11-21T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "In *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*, 8(4), Article 197"
-publication_short: "IMWUT 2024"
+publication_short: "ACM IMWUT, 2024"
 abstract: "PressInPose integrates pressure and inertial sensing for full-body pose estimation during activities, using pressure-informed kinematic modeling and multimodal learning to improve wearable motion analysis."
 summary: "A pressure and IMU-based wearable system for full-body pose estimation in complex activities."
 tags:

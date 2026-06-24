@@ -1,5 +1,5 @@
 ---
-title: "Motion2Press: Cross Model Learning from IMU to Plantar Pressure for Gait Analysis"
+title: "Motion2Press: Cross-Modal Learning from IMU to Plantar Pressure for Gait Analysis"
 authors:
   - Junbin Ren
   - Ruihao Zheng
@@ -12,7 +12,7 @@ date: "2025-09-03T00:00:00Z"
 publishDate: "2025-09-03T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "In *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*, 9(3), Article 124"
-publication_short: "IMWUT 2025"
+publication_short: "ACM IMWUT, 2025"
 abstract: "Motion2Press studies cross-modal learning from inertial measurement units to plantar pressure for gait analysis, estimating pressure distribution, ground reaction force, and center of pressure from wearable motion signals."
 summary: "Cross-modal learning from IMU signals to plantar pressure, ground reaction force, and center of pressure for gait analysis."
 tags:
