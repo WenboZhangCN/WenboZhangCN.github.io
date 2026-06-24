@@ -14,25 +14,73 @@ sections:
     content:
       title: Academic CV
       text: |-
-        Research experience, selected skills, service, awards, and education are summarized below. Download the latest PDF version: [Wenbo Zhang Academic CV](/uploads/resume.pdf).
+        Research experience, education, selected competencies, service, and awards are summarized below. Download the latest PDF version: [Wenbo Zhang Academic CV](/uploads/resume.pdf).
     design:
       columns: '1'
-  - block: resume-experience
+  - block: markdown
+    id: research-experience
     content:
-      username: me
+      title: Research Experience
+      text: |-
+        **Visiting Ph.D. Researcher, University College London**<br>
+        Mar 2026 - Present<br>
+        Investigating multimodal wearable sensing and machine learning for human motion and muscle effort, with real-time feedback for health and exercise applications. Host: Prof. Jagmohan Chauhan.
+
+        **Ph.D. Researcher, South China University of Technology**<br>
+        Sep 2023 - Present<br>
+        Developing wearable sensing systems integrating IMU, surface EMG, plantar pressure, and PPG, spanning human-subject data collection, sensor synchronization, multimodal modeling, mobile deployment, and system evaluation. Supervisor: Prof. Zhanpeng Jin.
+
+        **Teaching Assistant, Introduction to Engineering, South China University of Technology**<br>
+        Sep 2024 - Jun 2026<br>
+        Supported project-based teaching and mentored first-year undergraduate teams in engineering design; two mentored cohorts received Second Prize in the annual course design competition.
     design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
-  - block: resume-skills
+      columns: '1'
+  - block: markdown
+    id: education
     content:
-      title: Skills
-      username: me
-  - block: resume-awards
+      title: Education & Training
+      text: |-
+        **Ph.D. Candidate, South China University of Technology**<br>
+        Sep 2023 - Expected Jun 2027<br>
+        Research area: wearable sensing, mobile intelligence, and multimodal human movement understanding.
+
+        **Visiting Ph.D. Researcher, University College London**<br>
+        Mar 2026 - Present<br>
+        Host: Prof. Jagmohan Chauhan.
+
+        **Joint M.S. Research Program, Institute of Computing Technology, Chinese Academy of Sciences**<br>
+        May 2021 - Jun 2023
+
+        **M.S. in Computer Science, Hebei University**<br>
+        Sep 2020 - Jun 2023
+
+        **B.S. in Internet of Things Engineering, Hebei University of Science and Technology**<br>
+        Sep 2016 - Jun 2020
+    design:
+      columns: '1'
+  - block: markdown
+    id: competencies
+    content:
+      title: Research Competencies
+      text: |-
+        - Multimodal wearable sensing and sensor fusion.
+        - Time-series learning and hidden-state inference.
+        - Human-subject data collection and sensor synchronization.
+        - Mobile deployment and real-time feedback systems.
+        - Academic writing, mentoring, and system evaluation.
+    design:
+      columns: '1'
+  - block: markdown
+    id: awards
     content:
       title: Awards
-      username: me
+      text: |-
+        - China Scholarship Council Joint Ph.D. Scholarship, 2025.
+        - Silver Medal, Huawei Ascend AI Innovation Competition, 2023.
+        - Research Excellence Award for Graduate Students, 2023.
+        - Outstanding Graduate, 2023.
+    design:
+      columns: '1'
   - block: markdown
     id: service
     content:
@@ -44,8 +92,13 @@ sections:
         - Student Volunteer, ACM UbiComp / ISWC 2025, Helsinki, Finland.
     design:
       columns: '1'
-  - block: resume-languages
+  - block: markdown
+    id: languages
     content:
       title: Languages
-      username: me
+      text: |-
+        - Chinese: Native.
+        - English: Professional working proficiency.
+    design:
+      columns: '1'
 ---
