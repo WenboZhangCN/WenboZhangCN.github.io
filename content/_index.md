@@ -20,8 +20,8 @@ sections:
         title: Body-State-Aware Wearable Intelligence
         role: PhD Candidate at South China University of Technology · Visiting Researcher at University College London
         text: I build wearable systems that move beyond recognising motion to infer hidden physical states - including muscle activation, loading, and force - and translate them into real-time support for human movement and interaction.
-        image: home/wenbo-field.jpg
-        image_alt: Wenbo Zhang outdoors at the Giant's Causeway
+        image: home/wenbo-campus.jpg
+        image_alt: Wenbo Zhang standing in front of a historic university building
         event:
           date: 22 Jul 2026 · 15:00 BST
           text: 'UCLIC seminar: Beyond Motion'

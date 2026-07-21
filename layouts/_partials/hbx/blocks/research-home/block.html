@@ -4,7 +4,7 @@
 
 {{ $heroImage := resources.Get (printf "media/%s" $content.hero.image) }}
 {{ if and $heroImage (ne $heroImage.MediaType.SubType "svg") }}
-  {{ $heroImage = $heroImage.Fill "960x1200 r90 webp q88 Center" }}
+  {{ $heroImage = $heroImage.Fill "960x1200 webp q88 Bottom" }}
 {{ end }}
 
 <div class="wr-home">
