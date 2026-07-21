@@ -1,134 +1,181 @@
 ---
 title: ''
-summary: 'Wearable Intelligence for Human Movement, Muscle Effort, and Mobile Health'
-date: 2026-05-10
+summary: 'Wenbo Zhang is a PhD candidate at South China University of Technology and a visiting researcher at UCL, working on wearable sensing, body-state modelling, and closed-loop feedback for human movement and interaction.'
+date: 2026-07-21
 type: landing
 
+seo:
+  title: 'Wenbo Zhang | Body-State-Aware Wearable Intelligence'
+  description: 'Wenbo Zhang is a PhD candidate at South China University of Technology and a visiting researcher at UCL, working on wearable sensing, body-state modelling, and closed-loop feedback for human movement and interaction.'
+
 design:
-  spacing: '4rem'
+  spacing: '0'
 
 sections:
-  - block: resume-biography-3
+  - block: research-home
+    id: home
     content:
-      username: home
-      text: |-
-        I build multimodal wearable sensing systems that infer hidden physical and physiological states during human movement, including muscle effort, biomechanical loading, and physical interaction. My work connects sparse body-worn sensors, multimodal time-series learning, mobile deployment, and real-time feedback for mobile health, fitness, rehabilitation, and everyday ubiquitous computing scenarios.
+      hero:
+        name: Wenbo Zhang
+        title: Body-State-Aware Wearable Intelligence
+        role: PhD Candidate at South China University of Technology · Visiting Researcher at University College London
+        text: I build wearable systems that move beyond recognising motion to infer hidden physical states - including muscle activation, loading, and force - and translate them into real-time support for human movement and interaction.
+        image: home/wenbo-field.jpg
+        image_alt: Wenbo Zhang outdoors at the Giant's Causeway
+        event:
+          date: 22 Jul 2026 · 15:00 BST
+          text: 'UCLIC seminar: Beyond Motion'
+          url: https://www.ucl.ac.uk/uclic/events/2026/jul/beyond-motion-seminar-wenbo-zhang
+        actions:
+          - text: Publications
+            url: /publications/
+            style: primary
+          - text: Google Scholar
+            url: https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works
+            style: secondary
+            external: true
+          - text: Download CV
+            url: /uploads/resume.pdf
+            style: secondary
+          - text: Email Me
+            url: mailto:zhangwenbo1225@gmail.com
+            style: secondary
 
-        My research trajectory moves from observable body motion and contact pressure to hidden muscle activation and biomechanical loading, with the long-term goal of developing closed-loop wearable intelligence that helps users understand and regulate their physical states in everyday settings.
+      agenda:
+        title: Research Agenda
+        subtitle: From observable movement to hidden body states and useful, real-time support.
+        items:
+          - title: Movement
+            text: Recover observable body motion from sparse wearable sensors.
+            projects: PressInPose
+          - title: Evidence
+            text: Infer muscle activation, pressure, loading, and force.
+            projects: KineticsSense | Motion2Press | WatchForce
+          - title: Body States
+            text: Organise physical evidence into interpretable states.
+            projects: HALO
+          - title: Interaction
+            text: Make hidden effort perceptible and adjustable in real time.
+            projects: MuscleSense
+          - title: Intelligence
+            text: Reason over body states, memory, and personal context.
+            projects: HALO-Agent
+        summary: From recognising movement to understanding, communicating, and acting on hidden body states.
 
-        **Current Focus**  
-        Closed-loop wearable intelligence for hidden muscle-state inference and real-time feedback.
+      featured:
+        title: Featured Work
+        subtitle: Four systems that define my current research direction across sensing, state inference, and closed-loop interaction.
+        items:
+          - title: MuscleSense
+            image: research/musclesense.png
+            alt: MuscleSense auditory biofeedback system overview
+            status: Accepted
+            tone: accepted
+            venue: ACM IMWUT 2026
+            text: Making muscle effort audible for eyes-free, in-the-loop regulation during lower-limb exercise.
+            url: /publications/musclesense/
+            links:
+              - text: Publication
+                url: /publications/musclesense/
+              - text: Project
+                url: /projects/musclesense/
+          - title: HALO
+            image: research/halo.png
+            alt: HALO hidden activation-loading state inference overview
+            status: Major revision
+            tone: revision
+            venue: ACM IMWUT 2026
+            text: Organising muscle activation and biomechanical loading into interpretable body states.
+            url: /publications/halo/
+            links:
+              - text: Project overview
+                url: /projects/halo/
+          - title: KineticsSense
+            image: research/kineticssense.png
+            alt: KineticsSense multimodal wearable sensing framework
+            status: Published
+            tone: published
+            venue: ACM IMWUT 2025
+            text: Estimating lower-limb muscle activation and movement kinetics from sparse wearables.
+            url: /publications/kineticssense/
+            links:
+              - text: Publication
+                url: /publications/kineticssense/
+              - text: DOI
+                url: https://doi.org/10.1145/3749462
+                external: true
+          - title: WatchForce
+            image: research/watchforce.png
+            alt: WatchForce wrist-worn PPG and IMU hand-force estimation framework
+            status: Published
+            tone: published
+            venue: Computer Methods and Programs in Biomedicine, 2026
+            text: Estimating hand force from wrist-worn PPG and IMU sensing.
+            url: /publications/watchforce/
+            links:
+              - text: Publication
+                url: /publications/watchforce/
 
-        **Featured at MobiUK 2026**  
-        **MuscleSense:** Real-Time Auditory Biofeedback for Lower-Limb Exercise with Sparse Wearables.
-      headings:
-        about: ''
-        education: ''
-        interests: ''
-      button:
-        text: Download CV
-        url: /uploads/resume.pdf
+      publications:
+        title: Selected Publications
+        items:
+          - title: 'MuscleSense: Making Muscle Effort Audible for Eyes-Free In-the-Loop Regulation'
+            authors: '**Wenbo Zhang**, Chenxu Zhang, Xingying Yan, Guanyu Xin, Yu He, Wenkang Zhang, Jagmohan Chauhan, Yang Gao, Zhanpeng Jin.'
+            venue: Accepted, ACM IMWUT, 2026
+            url: /publications/musclesense/
+          - title: 'WatchForce: Wearables Can Tell How Strong You Grasp From Your Wrist'
+            authors: 'Lingde Hu<sup>&ast;</sup>, **Wenbo Zhang**<sup>&ast;</sup>, Seokmin Choi, Yang Gao, Zhanpeng Jin.'
+            venue: Computer Methods and Programs in Biomedicine, 2026
+            url: /publications/watchforce/
+          - title: 'KineticsSense: A Multimodal Wearable Sensor Framework for Modeling Lower-Limb Motion Kinetics'
+            authors: '**Wenbo Zhang**, Chenxu Zhang, Yang Gao, Zhanpeng Jin.'
+            venue: ACM IMWUT, 2025
+            url: /publications/kineticssense/
+          - title: 'Motion2Press: Cross-Modal Learning from IMU to Plantar Pressure for Gait Analysis'
+            authors: 'Junbin Ren, Ruihao Zheng, **Wenbo Zhang**, Dong She, Yuting Bai, Zhanpeng Jin, Yang Gao.'
+            venue: ACM IMWUT, 2025
+            url: /publications/motion2press/
+          - title: 'PressInPose: Integrating Pressure and Inertial Sensors for Full-Body Pose Estimation in Activities'
+            authors: 'Yang Gao, **Wenbo Zhang**, Junbin Ren, Ruihao Zheng, Yincheng Jin, Di Wu, Lin Shu, Xiangmin Xu, Zhanpeng Jin.'
+            venue: ACM IMWUT, 2024
+            url: /publications/pressinpose/
+
+      updates:
+        title: Latest Updates
+        items:
+          - date: 22 Jul 2026
+            datetime: 2026-07-22
+            text: 'Invited seminar at UCLIC, University College London: "Beyond Motion: Body-State-Aware Wearable Intelligence for Human Movement and Interaction."'
+            url: https://www.ucl.ac.uk/uclic/events/2026/jul/beyond-motion-seminar-wenbo-zhang
+          - date: Jul 2026
+            datetime: 2026-07
+            text: MuscleSense was accepted by ACM IMWUT 2026.
+          - date: Jul 2026
+            datetime: 2026-07
+            text: WatchForce was published in Computer Methods and Programs in Biomedicine.
+          - date: Jul 2026
+            datetime: 2026-07
+            text: HALO received a major-revision decision from ACM IMWUT.
+          - date: Jun 2026
+            datetime: 2026-06
+            text: Presented MuscleSense at MobiUK 2026, University of Cambridge.
+
+      contact:
+        title: Let's talk wearable intelligence.
+        text: I welcome research discussions and collaborations on wearable sensing, body-state modelling, and closed-loop human-AI interaction.
+        links:
+          - text: zhangwenbo1225@gmail.com
+            url: mailto:zhangwenbo1225@gmail.com
+          - text: Google Scholar
+            url: https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works
+            external: true
+          - text: LinkedIn
+            url: https://www.linkedin.com/in/%E5%BC%A0%E6%96%87%E5%8D%9A/
+            external: true
+          - text: ORCID
+            url: https://orcid.org/0000-0002-0387-6345
+            external: true
     design:
-      background:
-        gradient_mesh:
-          enable: false
-      name:
-        size: md
-      avatar:
-        size: medium
-        shape: circle
-  - block: markdown
-    id: research
-    content:
-      title: 'Research Overview'
-      subtitle: ''
-      text: |-
-        **Wearable Sensing &middot; Mobile Health &middot; Hidden-State Inference &middot; Closed-Loop Feedback**
-
-        My research follows a core trajectory: from observable body motion and contact pressure, to hidden muscle activation and biomechanical loading, and ultimately to closed-loop wearable intelligence that supports real-time user feedback.
-
-        I am especially interested in robust and interpretable multimodal sensing, on-device sensor learning, and mobile systems that translate hidden physical states into actionable feedback for health, fitness, sport, and rehabilitation.
-    design:
-      columns: '1'
-  - block: markdown
-    id: papers
-    content:
-      title: Featured Research
-      subtitle: ''
-      text: |-
-        1. **[KineticsSense](/publications/kineticssense/)**  
-           **Wenbo Zhang**, Chenxu Zhang, Yang Gao, Zhanpeng Jin. ACM IMWUT 2025.  
-           Multimodal wearable sensing for estimating lower-limb muscle activation and movement kinetics from IMU and plantar pressure.
-
-        2. **[MuscleSense](/publications/musclesense/)**  
-           **Wenbo Zhang** et al. Under review, ACM IMWUT 2026.  
-           Real-time auditory biofeedback using sparse thigh-worn IMU and sEMG to support eyes-free muscle-effort regulation during lower-limb exercise.
-
-        3. **[HALO](/publications/halo/)**  
-           **Wenbo Zhang** et al. Under review, ACM IMWUT 2026.  
-           Modeling hidden activation-loading relationships from sparse wearable signals for interpretable biomechanical state inference.
-
-        4. **[PPGSpeech](/publications/ppgspeech/)**  
-           Lingde Hu*, **Wenbo Zhang***, Wenkang Zhang, Yu He, Seokmin Choi, Yang Gao, Jagmohan Chauhan, Zhanpeng Jin. IEEE Internet of Things Journal, 2026.  
-           A neck-worn PPG-based silent speech interface that explores subtle physiological sensing for hands-free interaction.
-
-        More publications are listed on the [publications page](/publications/).
-    design:
-      columns: '1'
-  - block: collection
-    id: projects
-    content:
-      title: Selected Projects
-      text: 'Connected systems and research directions from sparse wearables to actionable movement intelligence.'
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      columns: 3
-      fill_image: false
-      show_date: false
-      show_read_time: false
-      show_read_more: false
-  - block: markdown
-    id: news
-    content:
-      title: News
-      text: |-
-        - Jul 2026 - Invited research talk at UCLIC, University College London, hosted by Prof. Nadia Berthouze.
-        - Jun 2026 - MuscleSense accepted for oral presentation at MobiUK 2026, University of Cambridge.
-        - May 2026 - Submitted HALO to ACM UbiComp / IMWUT.
-        - Mar 2026 - Started visiting research at University College London.
-        - 2026 - PPGSpeech published in IEEE Internet of Things Journal.
-        - Oct 2025 - Invited as a panelist at ACM UbiComp/ISWC 2025 to discuss impact, risks, and security/privacy in ubiquitous computing research.
-        - Oct 2025 - Served as a Student Volunteer at ACM UbiComp/ISWC 2025.
-        - 2025 - KineticsSense and Motion2Press accepted by ACM IMWUT.
-        - Jun 2025 - Mentored the first-year undergraduate project "HuiWoZhiLi (慧握知力)," which received Second Prize in the Introduction to Engineering course design competition.
-        - 2025 - Received the China Scholarship Council Joint Ph.D. Scholarship.
-        - 2024 - PressInPose accepted by ACM IMWUT.
-    design:
-      columns: '1'
-  - block: markdown
-    id: education
-    content:
-      title: Education
-      text: |-
-        - **Ph.D. Candidate**, South China University of Technology, 2023 - Expected 2027
-        - **Visiting Ph.D. Researcher**, University College London, 2026
-        - **Joint M.S. Research Program**, Institute of Computing Technology, Chinese Academy of Sciences, 2021 - 2023
-        - **B.S.**, Hebei University of Science and Technology, 2016 - 2020
-    design:
-      columns: '1'
-  - block: markdown
-    id: contact
-    content:
-      title: Contact
-      text: |-
-        I am open to collaborations on multimodal wearable sensing, mobile health systems, hidden-state inference, on-device sensor learning, and closed-loop feedback for movement, fitness, and rehabilitation.
-
-        **Email:** [ucacwzh@ucl.ac.uk](mailto:ucacwzh@ucl.ac.uk) / [ftzhangwenbo@mail.scut.edu.cn](mailto:ftzhangwenbo@mail.scut.edu.cn)  
-        **ORCID:** [0000-0002-0387-6345](https://orcid.org/0000-0002-0387-6345)  
-        **Google Scholar:** [Wenbo Zhang](https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works)
-    design:
-      columns: '1'
+      spacing:
+        padding: ['0', '0', '0', '0']
 ---

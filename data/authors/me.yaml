@@ -11,8 +11,8 @@ name:
 postnominals: []
 status:
   icon: ""
-role: "Ph.D. Candidate, SCUT<br>Visiting Ph.D. Researcher, UCL"
-bio: "I build multimodal wearable sensing systems that infer hidden physical and physiological states during human movement, including muscle effort, biomechanical loading, and physical interaction. My work connects sparse body-worn sensors, multimodal time-series learning, mobile deployment, and real-time feedback for mobile health, fitness, and rehabilitation.\n"
+role: "PhD Candidate at SCUT<br>Visiting Researcher at UCL"
+bio: "I build wearable systems that infer hidden physical states from sparse sensing and translate them into real-time support for human movement and interaction.\n"
 affiliations:
   - name: "South China University of Technology"
     url: "https://www.scut.edu.cn/en/"
@@ -20,7 +20,7 @@ affiliations:
     url: "https://www.ucl.ac.uk/"
 links:
   - icon: "envelope"
-    url: "mailto:ucacwzh@ucl.ac.uk"
+    url: "mailto:zhangwenbo1225@gmail.com"
     label: "Email"
   - icon: "academicons/google-scholar"
     url: "https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works"
@@ -28,6 +28,9 @@ links:
   - icon: "academicons/orcid"
     url: "https://orcid.org/0000-0002-0387-6345"
     label: "ORCID"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/%E5%BC%A0%E6%96%87%E5%8D%9A/"
+    label: "LinkedIn"
 interests:
   - "Wearable Sensing"
   - "Mobile Health"

@@ -3,15 +3,15 @@ hugoblox:
   identity:
     name: Wenbo Zhang
     type: person
-    tagline: "Wearable Intelligence for Human Movement, Muscle Effort, and Mobile Health"
-    description: "Personal academic homepage of Wenbo Zhang, a Ph.D. candidate working on multimodal wearable sensing, hidden human-state inference, mobile health systems, on-device sensor learning, and closed-loop feedback."
+    tagline: "Body-State-Aware Wearable Intelligence"
+    description: "Wenbo Zhang is a PhD candidate at South China University of Technology and a visiting researcher at UCL, working on wearable sensing, body-state modelling, and closed-loop feedback for human movement and interaction."
   theme:
-    mode: system
+    mode: light
     pack: default
     colors:
-      primary: ""
-      secondary: ""
-      neutral: ""
+      primary: "#30356B"
+      secondary: "#087F8C"
+      neutral: "slate"
   typography:
     font: sans
     size: md
@@ -24,11 +24,11 @@ hugoblox:
     style: navbar
     sticky: true
     align: center
-    search: true
-    theme_toggle: true
+    search: false
+    theme_toggle: false
   footer:
     style: minimal
-    language_switcher: true
+    language_switcher: false
   copyright:
     notice: "Copyright {year} {name}"
   content:
@@ -39,4 +39,4 @@ hugoblox:
     reading_time:
       enable: true
   search:
-    enable: true
+    enable: false

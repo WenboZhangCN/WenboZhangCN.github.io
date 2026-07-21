@@ -1,24 +1,15 @@
 # Navigation Links
 
 main:
-  - name: Bio
+  - name: Home
     url: /
     weight: 10
   - name: Research
     url: /#research
-    weight: 11
+    weight: 20
   - name: Publications
-    url: /#papers
-    weight: 12
-  - name: Projects
-    url: /#projects
-    weight: 13
+    url: /publications/
+    weight: 30
   - name: CV
     url: /experience/
-    weight: 14
-  - name: News
-    url: /#news
-    weight: 15
-  - name: Contact
-    url: /#contact
-    weight: 16
+    weight: 40

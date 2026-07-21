@@ -6,18 +6,18 @@ authors:
   - Seokmin Choi
   - Yang Gao
   - Zhanpeng Jin
-date: "2026-06-01T00:00:00Z"
-publishDate: "2026-06-01T00:00:00Z"
-publication_types: ["manuscript"]
-publication: "Manuscript under revision at *Computer Methods and Programs in Biomedicine*"
-publication_short: "Under revision, Computer Methods and Programs in Biomedicine, 2026"
+date: "2026-07-01T00:00:00Z"
+publishDate: "2026-07-01T00:00:00Z"
+publication_types: ["article-journal"]
+publication: "In *Computer Methods and Programs in Biomedicine*"
+publication_short: "Computer Methods and Programs in Biomedicine, 2026"
 abstract: "WatchForce studies wrist-worn sensing for estimating grasp force, extending wearable intelligence toward physical interaction understanding."
 summary: "Estimating grasp force from wrist-worn wearable signals."
 tags:
   - Wearable Sensing
   - Physical Interaction
   - Mobile Health
-featured: false
+featured: true
 links: []
 image:
   caption: ""

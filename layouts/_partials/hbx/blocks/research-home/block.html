@@ -1,0 +1,168 @@
+{{/* Custom research-focused homepage for Wenbo Zhang. */}}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+
+{{ $heroImage := resources.Get (printf "media/%s" $content.hero.image) }}
+{{ if and $heroImage (ne $heroImage.MediaType.SubType "svg") }}
+  {{ $heroImage = $heroImage.Fill "960x1200 r90 webp q88 Center" }}
+{{ end }}
+
+<div class="wr-home">
+  <div class="wr-hero-wrap">
+    <div class="wr-container wr-hero">
+      <div class="wr-hero-copy">
+        {{ with $content.hero.event }}
+          <a class="wr-event" href="{{ .url | safeURL }}" target="_blank" rel="noopener">
+            <span class="wr-event-date">{{ .date }}</span>
+            <span>{{ .text }}</span>
+          </a>
+        {{ end }}
+
+        <p class="wr-name">{{ $content.hero.name }}</p>
+        <h1>{{ $content.hero.title }}</h1>
+        <p class="wr-role">{{ $content.hero.role }}</p>
+        <p class="wr-intro">{{ $content.hero.text }}</p>
+
+        <div class="wr-actions" aria-label="Profile links">
+          {{ range $content.hero.actions }}
+            <a class="wr-button {{ if eq .style "primary" }}wr-button-primary{{ else }}wr-button-secondary{{ end }}"
+               href="{{ .url | safeURL }}"
+               {{ if .external }}target="_blank" rel="noopener"{{ end }}>
+              {{ .text }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+
+      <figure class="wr-hero-media">
+        {{ with $heroImage }}
+          <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $content.hero.image_alt }}" fetchpriority="high">
+        {{ end }}
+        {{ with $content.hero.image_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+      </figure>
+    </div>
+  </div>
+
+  <section id="research" class="wr-section wr-agenda-section" aria-labelledby="research-title">
+    <div class="wr-container">
+      <div class="wr-section-head">
+        <p class="wr-section-kicker">Research</p>
+        <h2 id="research-title">{{ $content.agenda.title }}</h2>
+        <p>{{ $content.agenda.subtitle }}</p>
+      </div>
+
+      <div class="wr-agenda-grid">
+        {{ range $index, $item := $content.agenda.items }}
+          <article class="wr-agenda-card wr-agenda-card-{{ add $index 1 }}">
+            <div class="wr-stage-number">0{{ add $index 1 }}</div>
+            <h3>{{ $item.title }}</h3>
+            <p>{{ $item.text }}</p>
+            <div class="wr-stage-projects">{{ $item.projects }}</div>
+          </article>
+        {{ end }}
+      </div>
+
+      <p class="wr-agenda-summary">{{ $content.agenda.summary }}</p>
+    </div>
+  </section>
+
+  <section id="featured-work" class="wr-section wr-featured-section" aria-labelledby="featured-title">
+    <div class="wr-container">
+      <div class="wr-section-head wr-section-head-row">
+        <div>
+          <p class="wr-section-kicker">Selected systems</p>
+          <h2 id="featured-title">{{ $content.featured.title }}</h2>
+        </div>
+        <p>{{ $content.featured.subtitle }}</p>
+      </div>
+
+      <div class="wr-featured-grid">
+        {{ range $item := $content.featured.items }}
+          {{ $figure := resources.Get (printf "media/%s" .image) }}
+          {{ if and $figure (ne $figure.MediaType.SubType "svg") }}
+            {{ $figure = $figure.Fit "1600x1000 webp q88" }}
+          {{ end }}
+          <article class="wr-work-card">
+            <a class="wr-work-image" href="{{ .url | safeURL }}" aria-label="View {{ .title }}">
+              {{ with $figure }}
+                <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $item.alt }}" loading="lazy">
+              {{ end }}
+            </a>
+            <div class="wr-work-body">
+              <div class="wr-work-meta">
+                <span class="wr-status wr-status-{{ .tone }}">{{ .status }}</span>
+                <span>{{ .venue }}</span>
+              </div>
+              <h3><a href="{{ .url | safeURL }}">{{ .title }}</a></h3>
+              <p>{{ .text }}</p>
+              <div class="wr-work-links">
+                {{ range .links }}
+                  <a href="{{ .url | safeURL }}" {{ if .external }}target="_blank" rel="noopener"{{ end }}>{{ .text }}</a>
+                {{ end }}
+              </div>
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section id="papers" class="wr-section wr-publications-section" aria-labelledby="papers-title">
+    <div class="wr-container wr-narrow-container">
+      <div class="wr-section-head wr-section-head-row">
+        <div>
+          <p class="wr-section-kicker">Research outputs</p>
+          <h2 id="papers-title">{{ $content.publications.title }}</h2>
+        </div>
+        <a class="wr-text-link" href="/publications/">View all publications</a>
+      </div>
+
+      <ol class="wr-publication-list">
+        {{ range $content.publications.items }}
+          <li>
+            <a class="wr-publication-title" href="{{ .url | safeURL }}">{{ .title }}</a>
+            <div class="wr-publication-authors">{{ .authors | markdownify }}</div>
+            <div class="wr-publication-venue">{{ .venue }}</div>
+          </li>
+        {{ end }}
+      </ol>
+      <p class="wr-equal-note"><sup>*</sup> Equal contribution.</p>
+    </div>
+  </section>
+
+  <section id="news" class="wr-section wr-updates-section" aria-labelledby="updates-title">
+    <div class="wr-container wr-narrow-container">
+      <div class="wr-section-head">
+        <p class="wr-section-kicker">News</p>
+        <h2 id="updates-title">{{ $content.updates.title }}</h2>
+      </div>
+
+      <div class="wr-updates-list">
+        {{ range $content.updates.items }}
+          <article class="wr-update">
+            <time datetime="{{ .datetime }}">{{ .date }}</time>
+            <p>
+              {{ .text }}
+              {{ with .url }}<a href="{{ . | safeURL }}" target="_blank" rel="noopener">Event details</a>{{ end }}
+            </p>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="wr-contact-section" aria-labelledby="contact-title">
+    <div class="wr-container wr-contact-inner">
+      <div>
+        <p class="wr-section-kicker">Contact</p>
+        <h2 id="contact-title">{{ $content.contact.title }}</h2>
+        <p>{{ $content.contact.text }}</p>
+      </div>
+      <div class="wr-contact-links">
+        {{ range $content.contact.links }}
+          <a href="{{ .url | safeURL }}" {{ if .external }}target="_blank" rel="noopener"{{ end }}>{{ .text }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</div>

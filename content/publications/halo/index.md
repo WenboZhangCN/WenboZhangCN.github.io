@@ -13,8 +13,8 @@ authors:
 date: "2026-05-01T00:00:00Z"
 publishDate: "2026-05-01T00:00:00Z"
 publication_types: ["manuscript"]
-publication: "Manuscript under review at *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*"
-publication_short: "Under review, ACM IMWUT, 2026"
+publication: "Major revision at *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*"
+publication_short: "Major revision, ACM IMWUT, 2026"
 abstract: "HALO investigates hidden activation-loading organization from sparse wearable signals, connecting motion, pressure, loading, and muscle activation."
 summary: "Inferring hidden activation-loading organization behind observable movement from sparse wearable sensing."
 tags:
