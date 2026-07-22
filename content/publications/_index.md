@@ -18,16 +18,16 @@ A curated list of accepted work, manuscripts under revision, peer-reviewed publi
 ## Peer-Reviewed Publications
 
 1. **[WatchForce: Wearables Can Tell How Strong You Grasp From Your Wrist](/publications/watchforce/)**<br>
-   Lingde Hu<sup>*</sup>, **Wenbo Zhang**<sup>*</sup>, Seokmin Choi, Yang Gao, Zhanpeng Jin.<br>
-   Computer Methods and Programs in Biomedicine, 2026. <sup>*</sup>Equal contribution.
+   Lingde Hu\*, **Wenbo Zhang**\*, Seokmin Choi, Yang Gao, Zhanpeng Jin.<br>
+   Computer Methods and Programs in Biomedicine, 2026. \* Equal contribution.
 
 2. **[KineticsSense: A Multimodal Wearable Sensor Framework for Modeling Lower-Limb Motion Kinetics](/publications/kineticssense/)**<br>
    **Wenbo Zhang**, Chenxu Zhang, Yang Gao, Zhanpeng Jin.<br>
    ACM IMWUT, 2025. [DOI](https://doi.org/10.1145/3749462) [Cite](/publications/kineticssense/cite.bib)
 
 3. **[PPGSpeech: A Wearable Silent Speech Interface Leveraging Neck-Worn Photoplethysmography](/publications/ppgspeech/)**<br>
-   Lingde Hu<sup>*</sup>, **Wenbo Zhang**<sup>*</sup>, Wenkang Zhang, Yu He, Seokmin Choi, Yang Gao, Jagmohan Chauhan, Zhanpeng Jin.<br>
-   IEEE Internet of Things Journal, 2026. <sup>*</sup>Equal contribution.
+   Lingde Hu\*, **Wenbo Zhang**\*, Wenkang Zhang, Yu He, Seokmin Choi, Yang Gao, Jagmohan Chauhan, Zhanpeng Jin.<br>
+   IEEE Internet of Things Journal, 2026. \* Equal contribution.
 
 4. **[PressInPose: Integrating Pressure and Inertial Sensors for Full-Body Pose Estimation in Activities](/publications/pressinpose/)**<br>
    Yang Gao, **Wenbo Zhang**, Junbin Ren, Ruihao Zheng, Yincheng Jin, Di Wu, Lin Shu, Xiangmin Xu, Zhanpeng Jin.<br>

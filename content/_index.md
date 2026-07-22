@@ -124,7 +124,7 @@ sections:
             venue: Accepted, ACM IMWUT, 2026
             url: /publications/musclesense/
           - title: 'WatchForce: Wearables Can Tell How Strong You Grasp From Your Wrist'
-            authors: 'Lingde Hu<sup>&ast;</sup>, **Wenbo Zhang**<sup>&ast;</sup>, Seokmin Choi, Yang Gao, Zhanpeng Jin.'
+            authors: 'Lingde Hu\*, **Wenbo Zhang**\*, Seokmin Choi, Yang Gao, Zhanpeng Jin.'
             venue: Computer Methods and Programs in Biomedicine, 2026
             url: /publications/watchforce/
           - title: 'KineticsSense: A Multimodal Wearable Sensor Framework for Modeling Lower-Limb Motion Kinetics'
@@ -159,6 +159,27 @@ sections:
           - date: Jun 2026
             datetime: 2026-06
             text: Presented MuscleSense at MobiUK 2026, University of Cambridge.
+          - date: Mar 2026
+            datetime: 2026-03
+            text: Started a visiting Ph.D. research stay at University College London.
+          - date: Feb 2026
+            datetime: 2026-02
+            text: PPGSpeech was published in IEEE Internet of Things Journal.
+          - date: Oct 2025
+            datetime: 2025-10
+            text: Invited as a panelist at ACM UbiComp/ISWC 2025 to discuss impact, risks, security, and privacy in ubiquitous computing research.
+          - date: Oct 2025
+            datetime: 2025-10
+            text: Served as a Student Volunteer at ACM UbiComp/ISWC 2025.
+          - date: '2025'
+            datetime: 2025
+            text: KineticsSense and Motion2Press were accepted by ACM IMWUT.
+          - date: '2025'
+            datetime: 2025
+            text: Received the China Scholarship Council Joint Ph.D. Scholarship.
+          - date: '2024'
+            datetime: 2024
+            text: PressInPose was accepted by ACM IMWUT.
 
       contact:
         title: Let's talk wearable intelligence.

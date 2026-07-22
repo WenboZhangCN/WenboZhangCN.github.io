@@ -6,6 +6,12 @@ authors:
   - Seokmin Choi
   - Yang Gao
   - Zhanpeng Jin
+author_notes:
+  - Equal contribution
+  - Equal contribution
+  - ''
+  - ''
+  - ''
 date: "2026-07-01T00:00:00Z"
 publishDate: "2026-07-01T00:00:00Z"
 publication_types: ["article-journal"]

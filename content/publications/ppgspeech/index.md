@@ -9,6 +9,15 @@ authors:
   - Yang Gao
   - Jagmohan Chauhan
   - Zhanpeng Jin
+author_notes:
+  - Equal contribution
+  - Equal contribution
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 date: "2026-02-01T00:00:00Z"
 publishDate: "2026-02-01T00:00:00Z"
 publication_types: ["article-journal"]

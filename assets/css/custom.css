@@ -454,6 +454,18 @@ body {
   font-size: 13px;
 }
 
+.author-notes svg {
+  display: none;
+}
+
+.author-notes::before {
+  content: "*";
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1;
+  vertical-align: super;
+}
+
 .wr-updates-section {
   background: #fff;
 }
