@@ -34,9 +34,6 @@ sections:
             url: https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works
             style: secondary
             external: true
-          - text: Download CV
-            url: /uploads/resume.pdf
-            style: secondary
           - text: Email Me
             url: mailto:zhangwenbo1225@gmail.com
             style: secondary

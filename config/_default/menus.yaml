@@ -10,6 +10,3 @@ main:
   - name: Publications
     url: /publications/
     weight: 30
-  - name: CV
-    url: /experience/
-    weight: 40
