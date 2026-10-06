@@ -43,6 +43,33 @@
     </div>
   </div>
 
+  <section id="talks" class="wr-section wr-talks-section" aria-labelledby="talks-title">
+    <div class="wr-container">
+      <div class="wr-section-head wr-section-head-row">
+        <div>
+          <p class="wr-section-kicker">Upcoming</p>
+          <h2 id="talks-title">{{ $content.talks.title }}</h2>
+        </div>
+        <p>{{ $content.talks.subtitle }}</p>
+      </div>
+
+      <div class="wr-talks-grid">
+        {{ range $content.talks.items }}
+          <article class="wr-talk">
+            <div class="wr-talk-meta">
+              <span>{{ .kind }}</span>
+              <time>{{ .date }}</time>
+            </div>
+            <h3><a href="{{ .url | safeURL }}" target="_blank" rel="noopener">{{ .title }}</a></h3>
+            <p class="wr-talk-venue">{{ .venue }}</p>
+            <p>{{ .text }}</p>
+            <a class="wr-text-link" href="{{ .url | safeURL }}" target="_blank" rel="noopener">Program details</a>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
   <section id="research" class="wr-section wr-agenda-section" aria-labelledby="research-title">
     <div class="wr-container">
       <div class="wr-section-head">

@@ -93,7 +93,7 @@ body {
   max-width: 700px;
   margin: 0;
   color: var(--wr-ink);
-  font-size: 58px;
+  font-size: 54px;
   font-weight: 760;
   line-height: 1.08;
 }
@@ -224,19 +224,83 @@ body {
   line-height: 1.65;
 }
 
+.wr-talks-section {
+  background: #fff;
+}
+
+.wr-talks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.wr-talk {
+  padding: 28px;
+  border: 1px solid var(--wr-line);
+  border-top: 4px solid var(--wr-primary);
+  border-radius: 8px;
+}
+
+.wr-talk:nth-child(2) {
+  border-top-color: var(--wr-teal);
+}
+
+.wr-talk-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 18px;
+  color: var(--wr-primary);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.wr-talk-meta span {
+  text-transform: uppercase;
+}
+
+.wr-talk h3 {
+  margin: 22px 0 10px;
+  font-size: 22px;
+  font-weight: 760;
+  line-height: 1.35;
+}
+
+.wr-talk h3 a {
+  color: var(--wr-ink);
+  text-decoration: none;
+}
+
+.wr-talk h3 a:hover {
+  color: var(--wr-primary);
+}
+
+.wr-talk > p {
+  margin: 0 0 18px;
+  color: var(--wr-muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.wr-talk .wr-talk-venue {
+  margin-bottom: 10px;
+  color: #344154;
+  font-weight: 700;
+}
+
 .wr-agenda-section {
   background: var(--wr-surface);
 }
 
 .wr-agenda-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .wr-agenda-card {
-  min-height: 252px;
-  padding: 22px;
+  min-height: 245px;
+  padding: 26px;
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -247,8 +311,6 @@ body {
 
 .wr-agenda-card-2 { border-top-color: var(--wr-teal); }
 .wr-agenda-card-3 { border-top-color: var(--wr-amber); }
-.wr-agenda-card-4 { border-top-color: var(--wr-coral); }
-.wr-agenda-card-5 { border-top-color: var(--wr-green); }
 
 .wr-stage-number {
   color: #7b8492;
@@ -625,6 +687,10 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .wr-talks-grid {
+    grid-template-columns: 1fr;
+  }
+
   .wr-contact-links {
     justify-content: flex-start;
   }
@@ -649,6 +715,10 @@ body {
     padding-right: 10px;
     padding-left: 10px;
     font-size: 14px;
+  }
+
+  .wr-actions .wr-button:last-child {
+    grid-column: 1 / -1;
   }
 
   .wr-agenda-grid {

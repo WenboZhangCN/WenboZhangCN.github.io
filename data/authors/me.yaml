@@ -11,8 +11,8 @@ name:
 postnominals: []
 status:
   icon: ""
-role: "PhD Candidate at SCUT<br>Visiting Researcher at UCL"
-bio: "I build wearable systems that infer hidden physical states from sparse sensing and translate them into real-time support for human movement and interaction.\n"
+role: "PhD Candidate at SCUT<br>Visiting Researcher at UCL, 2026"
+bio: "I develop human-centered wearable systems that recover consequential physical states from multimodal sensing and turn them into useful feedback and interaction.\n"
 affiliations:
   - name: "South China University of Technology"
     url: "https://www.scut.edu.cn/en/"
@@ -67,6 +67,7 @@ experience:
   - role: "Visiting Ph.D. Researcher"
     org: "University College London"
     start: "2026-03-01"
+    end: "2026-08-31"
     summary: "Investigating multimodal wearable sensing and machine learning for human motion and muscle effort, with real-time feedback for health and exercise applications. Supervisor: Prof. Jagmohan Chauhan.\n"
   - role: "Ph.D. Researcher"
     org: "South China University of Technology"

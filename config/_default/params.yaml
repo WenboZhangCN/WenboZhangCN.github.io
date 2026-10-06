@@ -3,8 +3,8 @@ hugoblox:
   identity:
     name: Wenbo Zhang
     type: person
-    tagline: "Body-State-Aware Wearable Intelligence"
-    description: "Wenbo Zhang is a PhD candidate at South China University of Technology and a visiting researcher at UCL, working on wearable sensing, body-state modelling, and closed-loop feedback for human movement and interaction."
+    tagline: "Human-Centered Wearable and Ubiquitous Intelligence"
+    description: "Wenbo Zhang (张文博) is a PhD candidate at South China University of Technology working on human-centered wearable and ubiquitous intelligence, multimodal human sensing, and interactive systems for movement and health."
   theme:
     mode: light
     pack: default

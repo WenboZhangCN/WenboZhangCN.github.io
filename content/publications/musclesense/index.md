@@ -22,7 +22,12 @@ tags:
   - Muscle Effort
   - Real-time Feedback
 featured: true
-links: []
+hugoblox:
+  ids:
+    doi: 10.1145/3831987
+links:
+  - type: doi
+    url: https://doi.org/10.1145/3831987
 image:
   caption: ""
   focal_point: ""

@@ -3,17 +3,23 @@ title: Publications
 cms_exclude: true
 ---
 
-A curated list of accepted work, manuscripts under revision, peer-reviewed publications, and patents.
+A curated list of accepted and peer-reviewed publications, workshop papers, and patents.
 
-## Accepted / Under Revision
+## Accepted Publications
 
 1. **[MuscleSense: Making Muscle Effort Audible for Eyes-Free In-the-Loop Regulation](/publications/musclesense/)**<br>
    **Wenbo Zhang**, Chenxu Zhang, Xingying Yan, Guanyu Xin, Yu He, Wenkang Zhang, Jagmohan Chauhan, Yang Gao, Zhanpeng Jin.<br>
-   Accepted, ACM IMWUT, 2026.
+   Accepted, ACM IMWUT, 2026. [DOI](https://doi.org/10.1145/3831987)
 
 2. **[HALO: Inferring Hidden Activation-Loading Organization from Sparse Wearables](/publications/halo/)**<br>
    **Wenbo Zhang**, Xingying Yan, Chenxu Zhang, Dong Huitian, Haoyang Li, Chenxu Zhu, Yang Gao, Jagmohan Chauhan, Zhanpeng Jin.<br>
-   Major revision, ACM IMWUT, 2026.
+   Accepted, ACM IMWUT, 2026.
+
+## Workshop Papers
+
+1. **[Beyond Sensor Streams: HALO-Agent as a Body-State Representation Layer for Wearable Agents](/publications/halo-agent/)**<br>
+   **Wenbo Zhang**, Yuan Gao, Dong Huitian, Chenxu Zhu, Chenxu Zhang, Wenkang Zhang, Yang Gao, Jagmohan Chauhan, Zhanpeng Jin.<br>
+   WearAgent Workshop, ACM UbiComp/ISWC, 2026. [Program](https://wearagent.github.io/)
 
 ## Peer-Reviewed Publications
 
