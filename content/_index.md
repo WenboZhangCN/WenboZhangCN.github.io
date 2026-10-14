@@ -35,7 +35,7 @@ sections:
             style: secondary
             external: true
           - text: Email Me
-            url: mailto:zhangwenbo1225@gmail.com
+            url: mailto:wb.zhang210@outlook.com
             style: secondary
 
       talks:
@@ -210,8 +210,8 @@ sections:
         title: Let's talk wearable intelligence.
         text: I welcome research discussions and collaborations on multimodal human sensing, wearable intelligence, mobile health, and human-centered AI.
         links:
-          - text: zhangwenbo1225@gmail.com
-            url: mailto:zhangwenbo1225@gmail.com
+          - text: wb.zhang210@outlook.com
+            url: mailto:wb.zhang210@outlook.com
           - text: Google Scholar
             url: https://scholar.google.com/citations?hl=en&user=FuqXhXcAAAAJ&view_op=list_works
             external: true
